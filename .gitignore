@@ -1,0 +1,7 @@
+*.swp
+*.pyc
+multitran_cli.egg-info/
+dist/
+build
+venv/
+.idea/
