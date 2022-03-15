@@ -2,7 +2,7 @@ multitran-cli
 =========
 Simple unofficial command line interface for [multitran.com](https://www.multitran.com) written in Python. It supports translations between the most common languages available on the website.
 
-![multitran-cli usage](https://i.imgur.com/tKf0R0Y.gif)
+![multitran-cli usage](https://i.imgur.com/Tt8feGQ.gif)
 
 
 Installation
