@@ -31,8 +31,35 @@ beer glass ................................................ ölglas
 ```
 
 
-Available languages include: `en`, `de`, `ru`, `pt`, `it`, `fr`, `ro`, `nl`, `no`, and more.
-
+Available languages
+------------
+```
+`af`  `African` 
+`zh` `Chinese` 
+`cz` `Czech` 
+`nl` `Dutch` 
+`en` `English` 
+`eo` `Esperanto` 
+`de` `German` 
+`gr` `Greek` 
+`fi` `Finnish` 
+`fr` `French` 
+`ga` `Irish` 
+`it` `Italian` 
+`la` `Latin` 
+`jp` `Japanse` 
+`xal` `Kalmyk` 
+`ko` `Korean` 
+`pt` `Portugese` 
+`ru` `Russian` 
+`sv` `Swedish` 
+`sk` `Slovak` 
+`sl` `Slovenian` 
+`es` `Spanish` 
+`ua` `Ukrainian` 
+`lv` `Latvian` 
+`et` `Estonian` 
+```
 Usage as Code
 ------------
 
@@ -53,9 +80,9 @@ All kinds of contributions are welcome. E.g.:
 - Or implementing a new feature.
 
 Some opportunities for improvement:
-- Making the spaghetti code nice, clean and more efficient. (unfortunately I'm not a coder but I know that there are many opportunities for improvement)
-- Switching from Beautifulsoup to [lxml](https://lxml.de/). lxml is faster as it is implemented in C
-- Adding more features from multitran.com (e.g. search for phrases)
+- [ ] Making the spaghetti code nice, clean and more efficient. (unfortunately I'm not a coder but I know that there are many opportunities for improvement)
+- [ ] Switching from Beautifulsoup to [lxml](https://lxml.de/). lxml is faster as it is implemented in C
+- [ ] Adding more features from multitran.com (e.g. search for phrases)
 
 
 

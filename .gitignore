@@ -5,3 +5,5 @@ dist/
 build
 venv/
 .idea/
+media/screenshot.aep
+media/screenshot_AME
