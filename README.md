@@ -30,6 +30,16 @@ beer ...................................................... öl
 beer glass ................................................ ölglas
 ```
 
+Usage as Code
+------------
+
+```
+>>> from multitran import Dict
+>>> translator = Dict()
+>>> result = translator.translate("hello", from_language="en", to_language="de")
+>>> result.translation_tuples[:2]
+[('Hello !', 'Hallo!'), ('Hello !', 'Servus! [bayer.] [österr.]')]
+```
 
 Available languages
 ------------
@@ -59,16 +69,6 @@ Available languages
 `ua` `Ukrainian` 
 `lv` `Latvian` 
 `et` `Estonian` 
-```
-Usage as Code
-------------
-
-```
->>> from multitran import Dict
->>> translator = Dict()
->>> result = translator.translate("hello", from_language="en", to_language="de")
->>> result.translation_tuples[:2]
-[('Hello !', 'Hallo!'), ('Hello !', 'Servus! [bayer.] [österr.]')]
 ```
 
 🤝 Contribute
