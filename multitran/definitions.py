@@ -81,19 +81,22 @@ class Dict(object):
 
     @classmethod
     def _get_response(cls, word, from_language, to_language):
-        res = requests.get(
-            url="https://www.multitran.com/c/M.exe",
-            params={
-                "CL": "1",
-                "s": word.encode("utf-8"),
-                "l1": _lookup_language_by_country_code(from_language),
-                "l2": _lookup_language_by_country_code(to_language),
-            },
-            headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0'},
-            timeout=0.5  # set a timeout so that requests switches to ipv4 connection early
+        try:
+            res = requests.get(
+                url="https://www.multitran.com/c/M.exe",
+                params={
+                    "CL": "1",
+                    "s": word.encode("utf-8"),
+                    "l1": _lookup_language_by_country_code(from_language),
+                    "l2": _lookup_language_by_country_code(to_language),
+                },
+                headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0'},
+                timeout=5  # set a timeout so that requests switches to ipv4 connection early
 
-        )
-        return res.content.decode("utf-8")
+            )
+            return res.content.decode("utf-8")
+        except requests.exceptions.ReadTimeout:
+            print("Timeout occurred")
 
     # Quick and dirty: find javascript arrays for input/output words on response body
     @classmethod
