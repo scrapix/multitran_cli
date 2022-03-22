@@ -47,30 +47,30 @@ Available languages
 ------------
 ```
 `af`  `African` 
-`zh` `Chinese` 
-`cz` `Czech` 
-`nl` `Dutch` 
-`en` `English` 
-`eo` `Esperanto` 
-`de` `German` 
-`gr` `Greek` 
-`fi` `Finnish` 
-`fr` `French` 
-`ga` `Irish` 
-`it` `Italian` 
-`la` `Latin` 
-`jp` `Japanse` 
+`zh`  `Chinese` 
+`cz`  `Czech` 
+`nl`  `Dutch` 
+`en`  `English` 
+`eo`  `Esperanto` 
+`de`  `German` 
+`gr`  `Greek` 
+`fi`  `Finnish` 
+`fr`  `French` 
+`ga`  `Irish` 
+`it`  `Italian` 
+`la`  `Latin` 
+`jp`  `Japanse` 
 `xal` `Kalmyk` 
-`ko` `Korean` 
-`pt` `Portugese` 
-`ru` `Russian` 
-`sv` `Swedish` 
-`sk` `Slovak` 
-`sl` `Slovenian` 
-`es` `Spanish` 
-`ua` `Ukrainian` 
-`lv` `Latvian` 
-`et` `Estonian` 
+`ko`  `Korean` 
+`pt`  `Portugese` 
+`ru`  `Russian` 
+`sv`  `Swedish` 
+`sk`  `Slovak` 
+`sl`  `Slovenian` 
+`es`  `Spanish` 
+`ua`  `Ukrainian` 
+`lv`  `Latvian` 
+`et`  `Estonian` 
 ```
 
 🤝 Contribute
