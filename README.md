@@ -1,16 +1,16 @@
-multitran-cli
+multitran_cli
 =========
 Simple unofficial command line interface for [multitran.com](https://www.multitran.com) written in Python. It supports translations between the most common languages available on the website.
 
 
-![multitran-cli usage](media/multitran-cli.gif)
+![multitran_cli usage](media/multitran_cli.gif)
 
 
 
 Installation
 ------------
 
-multitran-cli works with Python 3. 
+multitran_cli works with Python 3. 
 All you have to do to install it is typing following command into your terminal/cmd after navigating to the specific file path:
 
 ```bash
@@ -23,7 +23,7 @@ Usage
 It's super easy! Here's a quick example of using it to translate the word `beer` between english (`en`) and swedish (`sv`):
 
 ```bash
-$ multitran-cli en sv beer
+$ multitran_cli en sv beer
 Showing 2 of 2 result(s)
 
 English                                                     Swedish
