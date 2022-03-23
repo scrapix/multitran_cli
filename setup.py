@@ -11,6 +11,6 @@ setup(
     author='scrapix',
     url="https://github.com/scrapix/multitran_cli",
     license="License",
-    scripts=["src/multitran/multitran_cli.py"],
+    scripts=["src/multitranCLI/multitran.py"],
     install_requires=["bs4", "requests", "colorama"],
 )

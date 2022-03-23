@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
-__all__ = ["src"]
-from multitran_cli import src
+__all__ = ["definitions", "multitran"]
+from .src.multitran_cli import multitran
+from .src.multitran_cli import definitions
