@@ -5,7 +5,7 @@ import argparse
 import re
 import colorama as clr
 
-from definitions import Dict, AVAILABLE_LANGUAGES
+from multitran_cli.definitions import Dict, AVAILABLE_LANGUAGES
 
 clr.init(autoreset=True)
 
