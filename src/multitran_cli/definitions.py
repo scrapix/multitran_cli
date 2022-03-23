@@ -91,7 +91,7 @@ class Dict(object):
                     "l2": _lookup_language_by_country_code(to_language),
                 },
                 headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0'},
-                timeout=1.5  # set a timeout so that requests switches to ipv4 connection early
+                timeout=0.5  # set a timeout so that requests switches to ipv4 connection early
 
             )
             return res.content.decode("utf-8")
