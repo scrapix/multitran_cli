@@ -7,3 +7,4 @@ venv/
 .idea/
 media/screenshot.aep
 media/screenshot_AME
+.DS_Store
