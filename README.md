@@ -1,5 +1,5 @@
 multitran_cli
-=========
+=============
 Simple unofficial command line interface for [multitran.com](https://www.multitran.com) written in Python. It supports translations between the most common languages available on the website.
 
 
@@ -11,10 +11,10 @@ Installation
 ------------
 
 multitran_cli works with Python 3. 
-All you have to do to install it is typing following command into your terminal/cmd after navigating to the specific file path:
+All you have to do to install it is typing following command into your terminal/cmd after navigating to the path where you have stored the downloaded release:
 
 ```bash
-pip install multitran_cli-0.1.0-py3-none-any.whl 
+pip install multitran_cli-0.1.2.tar.gz
 ```
 
 Usage
@@ -23,7 +23,7 @@ Usage
 It's super easy! Here's a quick example of using it to translate the word `beer` between english (`en`) and swedish (`sv`):
 
 ```bash
-$ multitran_cli en sv beer
+$ multitran en sv beer
 Showing 2 of 2 result(s)
 
 English                                                     Swedish
@@ -32,15 +32,19 @@ beer ...................................................... öl
 beer glass ................................................ ölglas
 ```
 
-Usage as Code
+Usage as Code example
 ------------
 
 ```
->>> from multitran import Dict
->>> translator = Dict()
->>> result = translator.translate("hello", from_language="en", to_language="de")
->>> result.translation_tuples[:2]
-[('Hello !', 'Hallo!'), ('Hello !', 'Servus! [bayer.] [österr.]')]
+from multitran_cli import Dict
+
+translator = Dict()
+result = translator.translate("Freundschaft", from_language="de", to_language="ru")
+print(result.translation_tuples[:2])
+```
+Returns following output:
+```
+[('Freundschaft, f =, -en', 'дружба (gen.)'), ('Freundschaft, f =, -en', 'приятельство (sociol.)')]
 ```
 
 Available languages
@@ -82,6 +86,7 @@ All kinds of contributions are welcome. E.g.:
 - Or implementing a new feature.
 
 Some opportunities for improvement:
+- [x] Creating a consumable python package (in 0.1.2)
 - [ ] Making the spaghetti code nice, clean and more efficient. (unfortunately I'm not a coder but I know that there are many opportunities for improvement)
 - [ ] Switching from Beautifulsoup to [lxml](https://lxml.de/). lxml is faster as it is implemented in C
 - [ ] Adding more features from multitran.com (e.g. search for phrases)
