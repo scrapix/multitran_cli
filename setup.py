@@ -6,8 +6,11 @@ setup(
     packages=find_packages(where='src'),
     package_dir={"": "src"},
     scripts=["src/multitran_cli/multitran.py"],
+    entry_points={
+        'console_scripts': ['multitran = multitran_cli.multitran:run']
+    },
     install_requires=["bs4", "requests", "colorama"],
-    version="0.1.1",
+    version="0.1.2",
     description="Unofficial multitran.com command line interface",
     long_description=open('README.md').read(),
     author='scrapix',
