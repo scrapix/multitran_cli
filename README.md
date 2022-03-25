@@ -1,4 +1,4 @@
-multitran_cli
+Multitran Command Line Interface (multitran_cli)
 =============
 Simple unofficial command line interface for [multitran.com](https://www.multitran.com) written in Python. It supports translations between the most common languages available on the website.
 

@@ -8,3 +8,5 @@ venv/
 media/screenshot.aep
 media/screenshot_AME
 .DS_Store
+*.gifcask
+*.mov
